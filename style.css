@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.active{
+  font-size: 150%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  background-color: #f58bb3;
+}
+.homeundsuche {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: #f0f0f0; /* Optional: Hintergrundfarbe für die Leiste */
+}
+
+#search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#search input {
+  padding: 10px;
+  padding-right: 50px; /* Platz für die Icons */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search i {
+  font-size: 18px;
+  color: #333;
+  margin-left: 10px; /* Abstand zwischen den Icons */
+  cursor: pointer; /* Zeiger ändern, wenn über das Icon gefahren wird */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f0f0f0;
+  transition: all 0.3s ease; 
+}
+
+li:hover {
+  background-color: #ddd;
+  border: 2px solid #000;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a {
+  color: #f58bb3;
+  text-decoration: none;
+}
+
+#main-content {
+  display: flex;
+ justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+p {
+  font-size: 160%;
+  
+}
+
+.navundtext {
+  display: flex;
+}
+
+img{
+  width:30%;
+  height: 30%;
+}
